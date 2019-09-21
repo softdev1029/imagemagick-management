@@ -73,7 +73,7 @@ class Upload extends Component {
       const formData = new FormData();
       formData.append("file", file, file.name);
 
-      req.open("POST", "http://104.192.5.41/proxy/upload");
+      req.open("POST", "http://104.192.5.41/proxy");
       req.send(formData);
     });
   }
