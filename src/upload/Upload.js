@@ -125,6 +125,14 @@ class Upload extends Component {
     return (
       <div className="Upload">
         <span className="Title">Upload Files</span>
+        <p className="Description">
+          For now, you can upload only an CSV file including the order number.<br/><br/>
+          You can select files by<br/>
+          - Open file dialog<br/>
+          - Or drag file to this dropzone<br/><br/>
+          Then please click the upload button<br/>
+          After uploading a CVS file, you can see that file in <strong>/var/www/html/PatternTile2/InputPattterns/order.csv</strong>
+        </p>
         <div className="Content">
           <div>
             <Dropzone
